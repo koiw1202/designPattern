@@ -14,6 +14,4 @@ public class Main {
 
         channel.uploadVideo("Spring Boot 강의");
     }
-
-
 }
