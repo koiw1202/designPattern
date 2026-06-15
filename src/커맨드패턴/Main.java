@@ -6,7 +6,6 @@ import java.util.Map;
 public class Main {
     static Map<String, Runnable> commandMap = new HashMap<>();
 
-
     public static void main(String[] args) {
         commandMap.put("CREATE", () -> {
             System.out.println("회원 생성");
@@ -36,7 +35,6 @@ public class Main {
          * 위에 소스처럼 if else if 덕지덕지 붙여쓰는 소스보다 아래 소스가 더 깔끔하고 유지보수에 좋다.
          */
         commandMap.get(command).run();
-
 
     }
 }
